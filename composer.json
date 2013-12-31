@@ -1,0 +1,23 @@
+{
+    "name": "bforchhammer/nike2runkeeper",
+    "description": "Automatically import Nike+ data into Runkeeper.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benedikt Forchhammer",
+            "email": "b.forchhammer@mind2.de"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/jyokum/healthgraph.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "alexzabolotny/nike-plus-php2": "0.1.*",
+        "jyokum/healthgraph": "*@dev",
+        "silex/silex": "~1.1",
+        "symfony/yaml": "~2.3"
+    }
+}
